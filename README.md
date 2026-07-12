@@ -9,6 +9,8 @@ Works on any pasted text, not just listings on one platform -- covering the
 off-platform pivot (WhatsApp/Telegram/personal email) that platform-native
 moderation can't reach.
 
+**Live Link: https://job-shield.streamlit.app/ **
+
 ## Status: Day 2 complete (pending your live verification)
 
 **Day 1 -- tools layer**
