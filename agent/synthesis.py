@@ -107,9 +107,9 @@ def compute_base_score(
 
 
 def derive_risk_label(score: int) -> str:
-    if score < 30:
+    if score < 35:
         return "low"
-    if score <= 60:
+    if score <= 65:
         return "medium"
     return "high"
 
