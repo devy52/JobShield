@@ -1,0 +1,826 @@
+{
+  "obvious_scam_1": {
+    "label": "Obvious scam",
+    "posting_text": "\nAmazon Remote Data Entry Specialist - $45/hr, Immediate Start!\nWe are hiring immediately, no interview required. Work from home 2-3 hours/day.\nTo secure your position, a one-time registration fee of $50 is required to cover\nonboarding materials. Contact our recruiter directly on WhatsApp: +1-555-0192.\nPlease respond within 24 hours as spots are limited. Email: careers@arnazon-jobs.com\n",
+    "result": {
+      "extracted": {
+        "company_name": "Amazon",
+        "claimed_domain": null,
+        "claimed_email": "careers@arnazon-jobs.com",
+        "claimed_email_domain": "arnazon-jobs.com",
+        "salary_range": "$45/hr",
+        "remote_flag": true,
+        "contact_channel": "WhatsApp",
+        "red_flag_phrases": [
+          "no interview required",
+          "one-time registration fee of $50"
+        ],
+        "risk_flags": {
+          "has_upfront_payment": true,
+          "has_fake_check_or_reshipping": false,
+          "has_no_interview_pressure": true,
+          "has_unrealistic_pay": true
+        }
+      },
+      "redflag_scan": {
+        "categories_triggered": [
+          "upfront_payment",
+          "no_interview",
+          "urgency_pressure"
+        ],
+        "matches": {
+          "upfront_payment": [
+            "registration fee"
+          ],
+          "no_interview": [
+            "no interview required",
+            "immediate start"
+          ],
+          "urgency_pressure": [
+            "respond within 24 hours"
+          ]
+        },
+        "total_hits": 4
+      },
+      "agent_findings": [
+        {
+          "tool": "whois_lookup",
+          "summary": "{\"domain\": \"arnazon-jobs.com\"}",
+          "raw": {
+            "domain": "arnazon-jobs.com",
+            "lookup_failed": false,
+            "domain_not_registered": true,
+            "error": "No match for \"ARNAZON-JOBS.COM\".\r\n>>> Last update of whois database: 2026-07-12T03:36:30Z <<<\r\n\r\nNOTICE: The expiration date displayed in this record is the date the\r\nregistrar's sponsorship of the do"
+          }
+        },
+        {
+          "tool": "search_official_domain",
+          "summary": "{\"company_name\": \"Amazon\"}",
+          "raw": {
+            "query": "Amazon official careers page",
+            "candidate_domains": [
+              "amazon.jobs",
+              "aboutamazon.com",
+              "engineeralerts.com",
+              "ehss.ae",
+              "metacareers.com"
+            ],
+            "search_failed": false
+          }
+        },
+        {
+          "tool": "search_company_reviews",
+          "summary": "{\"company_name\": \"Amazon\"}",
+          "raw": {
+            "query": "Amazon reviews scam complaints",
+            "results": [
+              {
+                "title": "Amazon Fake Reviews Exposed: How Fraudulent Ratings... | IBTimes",
+                "url": "https://www.ibtimes.com/amazon-fake-reviews-exposed-how-fraudulent-ratings-impact-consumer-trust-3765549",
+                "snippet": "Amazon Scam Reviews IBTimes US. Amazon's scam problem isn't confined to digital solicitations. Many experiences involve sellers sending physical letters demanding five-star reviews in exchange for \u00a320 via PayPal."
+              },
+              {
+                "title": "The \u201cMake money writing Amazon reviews\u201d scam. | Medium",
+                "url": "https://medium.com/write-a-catalyst/the-make-money-writing-amazon-reviews-scam-and-how-to-actually-make-a-profit-c6256838fbef",
+                "snippet": "This the secret of how you actually make money writing Amazon reviews: Option 1: You spend a lot of time and energy writing thorough and well-written reviews for free."
+              },
+              {
+                "title": "Ubervita W700 Thermogenic Hypermetabolizer SCAM Ubervita...",
+                "url": "https://www.ripoffreport.com/report/ubervita/internet/ubervita-w700-thermogenic-hypermetabolizer-scam-ubervita-amazon-reviews-scam-exposed-w70-1152524",
+                "snippet": "This scam is the reason why Ubervita W700 Thermogenic Hypermetabolizer collects 40-50 5-star reviews daily on Amazon and this is how this company has become the Best Seller in the Fat Burner category."
+              },
+              {
+                "title": "AMAZON FAKE REVIEWS SCAM \u00bb Lawful Legal",
+                "url": "https://lawfullegal.in/amazon-fake-reviews-scam/",
+                "snippet": "To prove someone posted fake reviews, you need screenshots, emails, or payment records. Platform Liability: The responsibility of platforms like Amazon. If they knowingly allow fake reviews or ignore complaints, they can also be held responsible in some cases."
+              },
+              {
+                "title": "Report a scam - Amazon Customer Service",
+                "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=GRGRY7AQ3LMPXVCV",
+                "snippet": "We take fraud, scam, phishing and spoofing attempts seriously. If you receive a correspondence you think may not be from Amazon, report it immediately. To have the best advice on what actions to take, select the most appropriate link"
+              }
+            ],
+            "search_failed": false
+          }
+        },
+        {
+          "tool": "search_social_presence",
+          "summary": "{\"company_name\": \"Amazon\"}",
+          "raw": {
+            "query": "Amazon LinkedIn company page",
+            "linkedin_present": true,
+            "linkedin_urls": [
+              "https://www.linkedin.com/company/amazon"
+            ],
+            "search_failed": false
+          }
+        }
+      ],
+      "domain_similarity": {
+        "claimed_domain": "arnazon-jobs.com",
+        "best_match": "amazon.jobs",
+        "similarity_ratio": 0.667,
+        "core_label_ratio": 0.769,
+        "exact_match": false,
+        "typosquat_suspected": true,
+        "no_official_domain_found": false
+      },
+      "agent_notes": "## Summary\n\n**This job posting is a scam.** Here's the evidence:\n\n1. **Fake domain**: The claimed email domain `arnazon-jobs.com` is **not registered** (WHOIS lookup returned no match). It's a typo-squat on Amazon's real careers domain (`amazon.jobs`). The real Amazon would never use `arnazon-jobs.com`.\n\n2. **Upfront payment**: The posting asks for a \"one-time registration fee of $50\" \u2014 a classic scam red flag. Legitimate employers, especially Amazon, never charge job seekers.\n\n3. **No interview required**: The posting says \"no interview required\" for a $45/hr role, which is unrealistic and another hallmark of job scams.\n\n4. **WhatsApp contact**: Legitimate companies like Amazon use official email and application portals, not WhatsApp for recruitment.\n\n5. **Unrealistic pay**: $45/hr with no interview process is far too good to be true for an unvetted candidate.\n\n**Conclusion**: This is a fraudulent job posting impersonating Amazon. The scammer created a lookalike domain (`arnazon-jobs.com` instead of `amazon.jobs`) and is likely using it to collect registration fees from victims. Do not engage, do not send money, and do not share personal information.",
+      "verdict": {
+        "risk_score": 100,
+        "risk_label": "high",
+        "evidence": [
+          "The email domain 'arnazon-jobs.com' is a typosquat of Amazon's real careers domain 'amazon.jobs' and is not registered (WHOIS lookup returned no match).",
+          "The posting demands a 'one-time registration fee of $50' \u2014 a classic upfront payment scam.",
+          "It promises 'no interview required' for a $45/hr remote job, which is unrealistic and a common scam tactic.",
+          "The contact method is WhatsApp, not an official Amazon application portal or email.",
+          "The posting includes urgency pressure phrases like 'immediate start' and 'respond within 24 hours'."
+        ],
+        "explanation": "This job posting shows strong signs of being a fraudulent impersonation of Amazon. The use of a fake, unregistered domain that mimics Amazon's real site, combined with demands for an upfront fee and promises of no interview, are classic hallmarks of employment scams. Job seekers should not engage, send money, or share personal information."
+      }
+    }
+  },
+  "obvious_scam_2": {
+    "label": "Obvious scam",
+    "posting_text": "\nJob Title: Remote Data Entry / Administrative Assistant \u2013 IMMEDIATE HIRE\nCompany: GlobalTech Innovations Ltd.\nLocation: 100% Remote\nSalary: $45.00 - $60.00 / Hour\n\nAbout the Role:\nWe are expanding rapidly and need remote workers to handle basic data entry and administrative tasks. NO EXPERIENCE REQUIRED! We provide all training. You can work flexible hours and make up to $2,500 a week from the comfort of your home.\n\nRequirements:\n\nMust be 18 years or older.\n\nBasic typing skills.\n\nEquipment:\nYou will be required to set up a home office. We will send you an electronic check to purchase your Apple MacBook Pro, time-tracking software, and office supplies from our certified vendor before your first day.\n\nHow to Apply:\nDo not apply through this job board. To schedule your immediate text-based interview, message our Hiring Director, Mr. David Anderson, directly on Telegram at @GlobalTech_HR_David or via WhatsApp at +1 (555) 019-8372.\n",
+    "result": {
+      "extracted": {
+        "company_name": "GlobalTech Innovations Ltd.",
+        "claimed_domain": null,
+        "claimed_email": null,
+        "claimed_email_domain": null,
+        "salary_range": "$45.00 - $60.00 / Hour",
+        "remote_flag": true,
+        "contact_channel": "Telegram",
+        "red_flag_phrases": [
+          "IMMEDIATE HIRE",
+          "NO EXPERIENCE REQUIRED!",
+          "We will send you an electronic check to purchase your Apple MacBook Pro",
+          "Do not apply through this job board",
+          "immediate text-based interview",
+          "make up to $2,500 a week"
+        ],
+        "risk_flags": {
+          "has_upfront_payment": false,
+          "has_fake_check_or_reshipping": true,
+          "has_no_interview_pressure": true,
+          "has_unrealistic_pay": true
+        }
+      },
+      "redflag_scan": {
+        "categories_triggered": [],
+        "matches": {},
+        "total_hits": 0
+      },
+      "agent_findings": [
+        {
+          "tool": "search_official_domain",
+          "summary": "{\"company_name\": \"GlobalTech Innovations Ltd.\"}",
+          "raw": {
+            "query": "GlobalTech Innovations Ltd. official careers page",
+            "candidate_domains": [
+              "globtechinnovations.com",
+              "mycareersfuture.gov.sg",
+              "pk.linkedin.com",
+              "globaltech-innovations.com",
+              "gtc.wtlapp.com"
+            ],
+            "search_failed": false
+          }
+        },
+        {
+          "tool": "search_company_reviews",
+          "summary": "{\"company_name\": \"GlobalTech Innovations Ltd.\"}",
+          "raw": {
+            "query": "GlobalTech Innovations Ltd. reviews scam complaints",
+            "results": [
+              {
+                "title": "Global Tech Innovations \u2013 Leading company in condition monitoring...",
+                "url": "https://globtechinnovations.com/",
+                "snippet": "Advanced Tech Solutions for Your Industry Challenges. Unlock smarter, faster, and greener operations with Global Tech Innovations. From AI-powered monitoring to eco-friendly, custom-engineered solutions, we deliver cutting-edge technologies with global support and precision."
+              },
+              {
+                "title": "Global Tech Innovations | LinkedIn",
+                "url": "https://pk.linkedin.com/company/globaltechinnovations",
+                "snippet": "About us. Driving Industrial Innovation with Smart, Scalable Solutions Global Tech Innovations (GTI) & GlobeTech Innovative Solutions (GTIS) is a leading technology solutions providers with operations in MENA and South Asian regions."
+              },
+              {
+                "title": "GLOBALTECH INNOVATIONS PRIVATE LIMITED | ZaubaCorp",
+                "url": "https://www.zaubacorp.com/GLOBALTECH-INNOVATIONS-PRIVATE-LIMITED-U72900GJ2019PTC111800",
+                "snippet": "GLOBALTECH INNOVATIONS PRIVATE LIMITED (CIN: U72900GJ2019PTC111800) is a Private company incorporated on 31 Dec 2019. It is classified as Non-government company and is registered at Registrar of Companies, Ahmedabad. Its authorized share capital is Rs."
+              },
+              {
+                "title": "Construction Industry \u2013 Global Tech Innovations",
+                "url": "https://globaltech-innovations.com/product-category/sector/construction-industry/",
+                "snippet": "\u00a9 2024 Global Tech Innovations. All rights reserved."
+              },
+              {
+                "title": "GLOBALTECH INNOVATIONS PTE. LTD. (202235956M) - Singapore...",
+                "url": "https://www.sgpbusiness.com/company/Globaltech-Innovations-Pte-Ltd",
+                "snippet": "Globaltech innovations pte. LTD. was incorporated as a Exempt Private Company Limited by Shares in Singapore. The Company current operating status is live with registered address at Q BAY RESIDENCES."
+              }
+            ],
+            "search_failed": false
+          }
+        },
+        {
+          "tool": "search_social_presence",
+          "summary": "{\"company_name\": \"GlobalTech Innovations Ltd.\"}",
+          "raw": {
+            "query": "GlobalTech Innovations Ltd. LinkedIn company page",
+            "linkedin_present": true,
+            "linkedin_urls": [
+              "https://www.linkedin.com/company/global-techinnovations"
+            ],
+            "search_failed": false
+          }
+        },
+        {
+          "tool": "whois_lookup",
+          "summary": "{\"domain\": \"globtechinnovations.com\"}",
+          "raw": {
+            "domain": "globtechinnovations.com",
+            "registrar": "HOSTINGER operations, UAB",
+            "creation_date": "2025-01-29 13:16:46+00:00",
+            "age_days": 528,
+            "newly_registered": false,
+            "lookup_failed": false,
+            "domain_not_registered": false
+          }
+        },
+        {
+          "tool": "whois_lookup",
+          "summary": "{\"domain\": \"globaltech-innovations.com\"}",
+          "raw": {
+            "domain": "globaltech-innovations.com",
+            "registrar": "NAMECHEAP INC",
+            "creation_date": "2024-05-06 15:27:26+00:00",
+            "age_days": 796,
+            "newly_registered": false,
+            "lookup_failed": false,
+            "domain_not_registered": false
+          }
+        }
+      ],
+      "domain_similarity": null,
+      "agent_notes": "Here's my summary of findings:\n\n---\n\n**Summary: This job posting is almost certainly a scam.**\n\n**Key evidence:**\n\n1. **Fake Check Scam (most damning):** The posting explicitly says *\"We will send you an electronic check to purchase your Apple MacBook Pro.\"* This is a textbook fake-check scam \u2014 they send a fraudulent check, you deposit it, buy equipment from their \"vendor\" (the scammer), the check bounces, and you're left owing the bank.\n\n2. **Multiple classic scam red flags:**\n   - \"NO EXPERIENCE REQUIRED!\" for a $45\u2013$60/hour job \u2014 completely unrealistic\n   - \"IMMEDIATE HIRE\" pressure tactic\n   - \"Do not apply through this job board\" \u2014 trying to bypass platform protections\n   - Contact via **Telegram** (common for scammers avoiding traceability)\n   - \"Immediate text-based interview\" \u2014 no real vetting process\n\n3. **Company name ambiguity:** \"GlobalTech Innovations Ltd.\" is a generic name. Several real companies with similar names exist (globtechinnovations.com, globaltech-innovations.com, a LinkedIn page), but none appear to be a legitimate \"GlobalTech Innovations Ltd.\" The posting could be impersonating any of them or using a completely fabricated name.\n\n4. **No claimed domain or email** was provided in the posting \u2014 scammers often omit this to avoid domain-level scrutiny.\n\n**Conclusion:** The combination of the fake-check scheme, Telegram-only contact, unrealistic pay for no experience, and pressure to bypass the job board makes this a high-confidence scam. Do not engage.",
+      "verdict": {
+        "risk_score": 82,
+        "risk_label": "high",
+        "evidence": [
+          "The posting instructs applicants to contact via Telegram, a messaging app often used by scammers to avoid traceability.",
+          "The posting states: \"We will send you an electronic check to purchase your Apple MacBook Pro,\" a classic fake-check scam tactic.",
+          "The job promises $45.00 - $60.00 per hour with \"NO EXPERIENCE REQUIRED!\" and \"IMMEDIATE HIRE,\" which is unrealistic for a remote role.",
+          "The posting says \"Do not apply through this job board\" and mentions an \"immediate text-based interview,\" bypassing standard hiring processes.",
+          "Searches for the company name found multiple domains (globtechinnovations.com, globaltech-innovations.com) but no verified official website or careers page for \"GlobalTech Innovations Ltd.\""
+        ],
+        "explanation": "This job posting shows strong signs of being fraudulent. It uses a common fake-check scheme where you are sent a check to buy equipment, which will later bounce. The combination of unrealistic pay, no experience required, Telegram-only contact, and instructions to avoid the job board are all red flags. Job seekers should not engage with this posting."
+      }
+    }
+  },
+  "subtle_scam_1": {
+    "label": "Subtle scam",
+    "posting_text": "\nProduct Testing Associate (Remote) - FlexTest Solutions\nTest products from home and keep them! We'll send you a check to purchase items\nfor review - simply cash it, buy the products, and ship your feedback back to us.\nFlexible hours, $28/hr equivalent. Reach out via Telegram @flextest_hr to get started.\n",
+    "result": {
+      "extracted": {
+        "company_name": "FlexTest Solutions",
+        "claimed_domain": null,
+        "claimed_email": null,
+        "claimed_email_domain": null,
+        "salary_range": "$28/hr equivalent",
+        "remote_flag": true,
+        "contact_channel": "Telegram @flextest_hr",
+        "red_flag_phrases": [
+          "We'll send you a check to purchase items",
+          "ship your feedback back to us"
+        ],
+        "risk_flags": {
+          "has_upfront_payment": false,
+          "has_fake_check_or_reshipping": true,
+          "has_no_interview_pressure": false,
+          "has_unrealistic_pay": true
+        }
+      },
+      "redflag_scan": {
+        "categories_triggered": [],
+        "matches": {},
+        "total_hits": 0
+      },
+      "agent_findings": [
+        {
+          "tool": "search_official_domain",
+          "summary": "{\"company_name\": \"FlexTest Solutions\"}",
+          "raw": {
+            "query": "FlexTest Solutions official careers page",
+            "candidate_domains": [
+              "mts.com",
+              "kyrio.com",
+              "metacareers.com",
+              "yumpu.com",
+              "razomforukraine.org"
+            ],
+            "search_failed": false
+          }
+        },
+        {
+          "tool": "search_company_reviews",
+          "summary": "{\"company_name\": \"FlexTest Solutions\"}",
+          "raw": {
+            "query": "FlexTest Solutions reviews scam complaints",
+            "results": [
+              {
+                "title": "ScamAdviser | Check Any Website for Scams & Fraud | Free",
+                "url": "https://www.scamadviser.com/",
+                "snippet": "1 day ago \u00b7 ScamAdviser uses an algorithm to determine if the website is legit with real reviews or a phishing website, selling fake products. Our goal: help consumers make the right choices online."
+              },
+              {
+                "title": "Trustpilot Reviews: Experience the power of customer reviews",
+                "url": "https://www.trustpilot.com/",
+                "snippet": "We're all about consumer reviews. Get the real inside story from shoppers like you. Read, write and share reviews on Trustpilot today."
+              },
+              {
+                "title": "Search for Scams | BBB Scam Tracker | Better Business Bureau",
+                "url": "https://www.bbb.org/scamtracker/lookupscam",
+                "snippet": "1 day ago \u00b7 People weren\u2019t getting paid their money, a lot people were saying it was a scam and all sorts of thing. So I emailed them about the allegations, and they have yet to respond."
+              },
+              {
+                "title": "Flex Reviews and Complaints | ComplaintsBoard",
+                "url": "https://www.complaintsboard.com/flex-b156698",
+                "snippet": "May 18, 2026 \u00b7 Read 22 honest reviews and 22 complaints about Flex, rated 2.9 out of 5 by customers and menstrual products. Share your experience on ComplaintsBoard."
+              },
+              {
+                "title": "Check if Website is Legit or Scam, Check Site Reputation ...",
+                "url": "https://www.islegitsite.com/",
+                "snippet": "Don't know if a website is legit? No problem, use this free service to find the online reputation, blocklist status, HTTPS connection details, website popularity (Alexa rank), and users comments and reviews of a website, all in one place!"
+              }
+            ],
+            "search_failed": false
+          }
+        },
+        {
+          "tool": "search_social_presence",
+          "summary": "{\"company_name\": \"FlexTest Solutions\"}",
+          "raw": {
+            "query": "FlexTest Solutions LinkedIn company page",
+            "linkedin_present": true,
+            "linkedin_urls": [
+              "https://www.linkedin.com/company/flex-solutions-llc"
+            ],
+            "search_failed": false
+          }
+        },
+        {
+          "tool": "whois_lookup",
+          "summary": "{\"domain\": \"flextestsolutions.com\"}",
+          "raw": {
+            "domain": "flextestsolutions.com",
+            "lookup_failed": false,
+            "domain_not_registered": true,
+            "error": "No match for \"FLEXTESTSOLUTIONS.COM\".\r\n>>> Last update of whois database: 2026-07-12T03:38:30Z <<<\r\n\r\nNOTICE: The expiration date displayed in this record is the date the\r\nregistrar's sponsorship of t"
+          }
+        },
+        {
+          "tool": "whois_lookup",
+          "summary": "{\"domain\": \"flextest.com\"}",
+          "raw": {
+            "domain": "flextest.com",
+            "registrar": "ENOM, INC.",
+            "creation_date": "2008-09-04 18:14:29+00:00",
+            "age_days": 6519,
+            "newly_registered": false,
+            "lookup_failed": false,
+            "domain_not_registered": false
+          }
+        }
+      ],
+      "domain_similarity": null,
+      "agent_notes": "## Summary\n\n**Verdict: This is a scam job posting.**\n\n**Evidence gathered:**\n\n1. **No legitimate company presence.** Searching for \"FlexTest Solutions\" found no official company website or careers page. The domain `flextestsolutions.com` is **not even registered**. The LinkedIn result was for \"Flex Solutions LLC\" \u2014 a different entity, not this company.\n\n2. **Telegram-only contact.** The only way to reach the \"employer\" is via Telegram (@flextest_hr). Legitimate companies use email, official career portals, or LinkedIn \u2014 not encrypted messaging apps as the sole contact channel.\n\n3. **Classic fake-check / reshipping scam language.** The posting explicitly says: *\"We'll send you a check to purchase items\"* and *\"ship your feedback back to us.\"* This is the textbook pattern of a **fake check scam** \u2014 they send you a fraudulent check, you deposit it, buy items, ship them, and later the check bounces, leaving you out of pocket.\n\n4. **Unrealistic pay.** \"$28/hr equivalent\" for what is essentially a package-forwarding / \"mystery shopper\" task is far above market rate \u2014 a common lure.\n\n5. **No claimed domain or email.** The posting didn't even provide a company domain or email address, which is highly unusual for any legitimate employer.\n\n**Conclusion:** All signals point to a reshipping/fake-check scam. Do not engage with this posting.",
+      "verdict": {
+        "risk_score": 100,
+        "risk_label": "high",
+        "evidence": [
+          "The posting instructs applicants to contact via Telegram (@flextest_hr) only, with no company email or official website provided.",
+          "The job description includes the phrases 'We'll send you a check to purchase items' and 'ship your feedback back to us,' which match the pattern of a fake check/reshipping scam.",
+          "A search for 'FlexTest Solutions' official careers page found no legitimate company website; the domain flextestsolutions.com is not even registered.",
+          "The LinkedIn result for 'FlexTest Solutions' points to 'Flex Solutions LLC,' a different entity, not the company in the posting.",
+          "The pay of '$28/hr equivalent' for a package-forwarding task is unrealistically high, a common lure in job scams."
+        ],
+        "explanation": "This posting shows strong signs of being a fraudulent job offer. The use of Telegram as the only contact method, the explicit mention of sending a check to purchase items and ship them back, and the lack of any verifiable company website or domain are classic indicators of a reshipping scam. The high pay for simple tasks is another red flag. Job seekers should avoid engaging with this posting."
+      }
+    }
+  },
+  "subtle_scam_2": {
+    "label": "Subtle scam",
+    "posting_text": "\nJob Title: Junior Artificial Intelligence (AI) Developer\nCompany: AMD\nLocation: Austin, TX (Hybrid)\nSalary: $85,000 - $105,000 / Year\n\nAbout the Role:\nAdvanced Micro Devices (AMD) is searching for a passionate Junior AI Developer to join our growing machine learning division. You will collaborate with senior engineers to optimize neural network architectures and deploy models for next-generation hardware.\n\nResponsibilities:\n\nWrite clean, scalable Python code.\n\nAssist in testing and validating RAG pipelines.\n\nParticipate in daily Agile stand-ups.\n\nRequirements:\n\nB.S. in Computer Science, Mathematics, or a related field.\n\nFamiliarity with PyTorch or TensorFlow.\n\nNote: All incoming junior developers must hold an active 'Advanced Cloud Security Baseline' certification. If you do not have this, you must complete the fast-track exam via our third-party partner portal ($65 registration fee, fully reimbursed on your first paycheck).\n\nTo Apply:\nPlease submit your resume and cover letter to our recruitment team at careers@amd-careers-portal.com.\n",
+    "result": {
+      "extracted": {
+        "company_name": "AMD",
+        "claimed_domain": null,
+        "claimed_email": "careers@amd-careers-portal.com",
+        "claimed_email_domain": "amd-careers-portal.com",
+        "salary_range": "$85,000 - $105,000",
+        "remote_flag": false,
+        "contact_channel": "email",
+        "red_flag_phrases": [
+          "$65 registration fee, fully reimbursed on your first paycheck",
+          "fast-track exam via our third-party partner portal"
+        ],
+        "risk_flags": {
+          "has_upfront_payment": true,
+          "has_fake_check_or_reshipping": false,
+          "has_no_interview_pressure": false,
+          "has_unrealistic_pay": false
+        }
+      },
+      "redflag_scan": {
+        "categories_triggered": [
+          "upfront_payment"
+        ],
+        "matches": {
+          "upfront_payment": [
+            "registration fee"
+          ]
+        },
+        "total_hits": 1
+      },
+      "agent_findings": [
+        {
+          "tool": "whois_lookup",
+          "summary": "{\"domain\": \"amd-careers-portal.com\"}",
+          "raw": {
+            "domain": "amd-careers-portal.com",
+            "lookup_failed": false,
+            "domain_not_registered": true,
+            "error": "No match for \"AMD-CAREERS-PORTAL.COM\".\r\n>>> Last update of whois database: 2026-07-12T03:43:01Z <<<\r\n\r\nNOTICE: The expiration date displayed in this record is the date the\r\nregistrar's sponsorship of "
+          }
+        },
+        {
+          "tool": "search_official_domain",
+          "summary": "{\"company_name\": \"AMD\"}",
+          "raw": {
+            "query": "AMD official careers page",
+            "candidate_domains": [
+              "careers.amd.com",
+              "amd.com",
+              "linkedin.com"
+            ],
+            "search_failed": false
+          }
+        },
+        {
+          "tool": "search_company_reviews",
+          "summary": "{\"company_name\": \"AMD\"}",
+          "raw": {
+            "query": "AMD reviews scam complaints",
+            "results": [
+              {
+                "title": "AMD Reviews | Read Customer Service Reviews of amd.com",
+                "url": "https://www.trustpilot.com/review/amd.com",
+                "snippet": "Evaluating 30 reviews, most reviewers were let down by their experience overall. Many customers expressed significant dissatisfaction with the products, citing issues such as damaged components and general unreliability, leading to unusable machines despite substantial investment."
+              },
+              {
+                "title": "AMD Reviews | Read Customer Service Reviews of amd.com | 2 of 8Top AMD Complaints from Real Customers | RealNewsTodayAMD Reviews and Complaints | ComplaintsBoardamd.com Reviews | check if the site is a scam or legit ...AMD Reviews and Complaints | amd.com @ PissedConsumer Page 2amd.com Reviews: Is this site a scam or legit? \u2013 Scam Detector",
+                "url": "https://www.trustpilot.com/review/amd.com?page=2",
+                "snippet": "Considering 30 reviews, most reviewers were let down by their experience overall. Many people found the products, particularly graphics cards and CPUs, to be problematic, with frequent crashes and inconsistent performance in games, even older titles. Read real AMD complaints about product quality decline and poor warranty service. Consumer insights updated 2026. \u2014 Real News Today. Nov 14, 2018 \u00b7 AMD has received 2 complaints on ComplaintsBoard. The first reported case, Rip off, was published on Jul 28, 2011, and the most recent complaint, Android, was posted on Nov 14, 2018. Check amd.com with our free review tool and find out if amd.com is legit and reliable. Need advice? Report scams Check Scamadviser! May 28, 2010 \u00b7 It's very disappointing to know that I made a bad investment, so don't buy AMD products therefore you won't end up like me. Even if you did know about the updated warranty info of AMD products, then at least consider if the quality is worth it. Wondering about the authenticity of amd.com? Is it a secure option or a scam? This comprehensive review highlights if it\u2019s legit or a scam."
+              },
+              {
+                "title": "Top AMD Complaints from Real Customers | RealNewsToday",
+                "url": "https://realnewstoday.net/complaints/amd",
+                "snippet": "Read real AMD complaints about product quality decline and poor warranty service. Consumer insights updated 2026. \u2014 Real News Today."
+              },
+              {
+                "title": "AMD Reviews and Complaints | ComplaintsBoard",
+                "url": "https://www.complaintsboard.com/amd-b102934",
+                "snippet": "Nov 14, 2018 \u00b7 AMD has received 2 complaints on ComplaintsBoard. The first reported case, Rip off, was published on Jul 28, 2011, and the most recent complaint, Android, was posted on Nov 14, 2018."
+              },
+              {
+                "title": "amd.com Reviews | check if the site is a scam or legit ...",
+                "url": "https://www.scamadviser.com/check-website/www.amd.com",
+                "snippet": "Check amd.com with our free review tool and find out if amd.com is legit and reliable. Need advice? Report scams Check Scamadviser!"
+              }
+            ],
+            "search_failed": false
+          }
+        },
+        {
+          "tool": "search_social_presence",
+          "summary": "{\"company_name\": \"AMD\"}",
+          "raw": {
+            "query": "AMD LinkedIn company page",
+            "linkedin_present": true,
+            "linkedin_urls": [
+              "https://www.linkedin.com/company/amd",
+              "https://in.linkedin.com/company/amd",
+              "https://www.linkedin.com/company/amd/life/main"
+            ],
+            "search_failed": false
+          }
+        }
+      ],
+      "domain_similarity": {
+        "claimed_domain": "amd-careers-portal.com",
+        "best_match": "careers.amd.com",
+        "similarity_ratio": 0.483,
+        "core_label_ratio": 0.286,
+        "exact_match": false,
+        "typosquat_suspected": false,
+        "no_official_domain_found": false
+      },
+      "agent_notes": "## Summary\n\n**This job posting is a scam impersonating AMD.**\n\nHere's the evidence:\n\n1. **Fake domain**: The claimed email domain `amd-careers-portal.com` is **not registered** at all. The real AMD careers portal is at `careers.amd.com`. Scammers often use unregistered or lookalike domains to impersonate legitimate companies.\n\n2. **Upfront fee demand**: The posting asks for a **$65 registration fee** (supposedly reimbursed later). Legitimate employers never charge applicants money to apply, interview, or start a job. This is a classic scam red flag.\n\n3. **Vague third-party language**: The mention of a \"fast-track exam via our third-party partner portal\" is another common scam tactic to direct victims to fake testing portals that collect payment.\n\n4. **Impersonation of a real company**: AMD (Advanced Micro Devices) is a legitimate, well-known company with an official careers page at `careers.amd.com` and a verified LinkedIn presence. The scam is using AMD's name to appear credible while directing applicants to a fraudulent, unregistered domain.\n\n**Conclusion**: This is a fraudulent job posting. The unregistered domain combined with an upfront fee demand makes it highly likely to be a scam designed to steal money from job seekers. Do not engage with this posting or send any payment.",
+      "verdict": {
+        "risk_score": 73,
+        "risk_label": "high",
+        "evidence": [
+          "The email domain 'amd-careers-portal.com' is not registered, according to WHOIS lookup.",
+          "The posting requires a $65 registration fee, a classic upfront payment scam tactic.",
+          "The real AMD careers portal is at 'careers.amd.com', not the unregistered domain used in the posting.",
+          "The posting mentions a 'fast-track exam via our third-party partner portal', a common lure to fake payment portals.",
+          "AMD is a real company with a verified LinkedIn presence, but the posting uses a fraudulent domain to impersonate it."
+        ],
+        "explanation": "This job posting shows strong signs of being fraudulent. The email domain is not registered, and the posting demands an upfront payment, which legitimate employers never do. The use of a fake domain to impersonate a well-known company like AMD is a common scam tactic. Job seekers should avoid engaging with this posting or sending any money."
+      }
+    }
+  },
+  "real_posting_1": {
+    "label": "Real posting",
+    "posting_text": "\nAbout the job\nGraduate Engineer Intern\n\nRemote (India) | Full-Time Internship | Duration: 1\u20133 Months\n\n\n\nAbout Medinex Workforce\n\nMedinex Workforce is a growing organization focused on building skilled talent pipelines across data, technology, and healthcare-adjacent domains. We offer hands-on internship programs designed to give students and early-career professionals real-world project experience, exposure to live projects, and mentorship from experienced professionals in the field.\n\n\n\nRole Overview\n\nWe are looking for a motivated Graduate Engineer Intern to join our remote team. This internship is ideal for recent engineering graduates who want to gain practical, industry-level experience across technical projects, problem-solving, and cross-functional collaboration. You will work closely with our technical and project teams to apply your academic knowledge to real business challenges.\n\n\n\nKey Responsibilities\n\n- Assist in executing assigned technical projects from planning through completion\n\n- Apply engineering principles and analytical thinking to solve practical problems\n\n- Support testing, quality checks, and documentation of project deliverables\n\n- Collaborate with cross-functional teams including developers, analysts, and other interns\n\n- Assist in troubleshooting technical issues and proposing solutions\n\n- Research relevant tools, methods, or technologies to support ongoing projects\n\n- Prepare reports and presentations summarizing project progress and findings\n\n- Participate in regular team discussions and contribute constructive ideas\n\n\n\nRequirements\n\n- Recently completed a degree in Engineering (any discipline) or a related technical field\n\n- Strong foundational knowledge of engineering and analytical concepts\n\n- Basic understanding of programming or technical tools relevant to the assigned project\n\n- Good problem-solving skills and willingness to learn new domains\n\n- Strong communication skills and ability to work independently in a remote setup\n\n- Own laptop and stable internet connection required\n\n\n\nWhat You'll Gain\n\n- Practical, real-world project experience across technical domains\n\n- Mentorship and guidance from experienced professionals\n\n- A certificate of completion to strengthen your resume\n\n- Exposure to collaborative, cross-functional project work\n\n\n\nStipend: \u20b915,700/month\n\nDuration: 1\u20133 Months\n\nLocation: Remote (India)\n\nJob Type: Full-Time Internship\n",
+    "result": {
+      "extracted": {
+        "company_name": "Medinex Workforce",
+        "claimed_domain": null,
+        "claimed_email": null,
+        "claimed_email_domain": null,
+        "salary_range": "\u20b915,700/month",
+        "remote_flag": true,
+        "contact_channel": null,
+        "red_flag_phrases": [],
+        "risk_flags": {
+          "has_upfront_payment": false,
+          "has_fake_check_or_reshipping": false,
+          "has_no_interview_pressure": false,
+          "has_unrealistic_pay": false
+        }
+      },
+      "redflag_scan": {
+        "categories_triggered": [],
+        "matches": {},
+        "total_hits": 0
+      },
+      "agent_findings": [
+        {
+          "tool": "search_official_domain",
+          "summary": "{\"company_name\": \"Medinex Workforce\"}",
+          "raw": {
+            "query": "Medinex Workforce official careers page",
+            "candidate_domains": [
+              "medinexworkforce.in",
+              "medinex.org",
+              "linkedin.com",
+              "foundit.in"
+            ],
+            "search_failed": false
+          }
+        },
+        {
+          "tool": "search_company_reviews",
+          "summary": "{\"company_name\": \"Medinex Workforce\"}",
+          "raw": {
+            "query": "Medinex Workforce reviews scam complaints",
+            "results": [
+              {
+                "title": "medinex.az",
+                "url": "https://medinex.az/",
+                "snippet": "Baku Kas 06 - Kas 07, 2019 MEDINEX Baku, Azerbaijan Medical Innovations..."
+              },
+              {
+                "title": "MediNex Workforce | LinkedIn",
+                "url": "https://in.linkedin.com/company/medinex-workforce",
+                "snippet": "About us. Medinex Workforce is a dual-engine enterprise workforce partner specializing in advanced IT consulting and clinically compliant healthcare recruitment."
+              },
+              {
+                "title": "NDIS Rostering & Workforce Management Tips | Medinex",
+                "url": "https://medinex.com.au/blog/ndis-rostering-workforce-management-tips",
+                "snippet": "Improve NDIS rostering and workforce management with expert tips on technology, communication, and staff wellbeing. Enhance service delivery with Medinex."
+              },
+              {
+                "title": "Learn where to report a scam | USAGov",
+                "url": "https://www.usa.gov/where-report-scams",
+                "snippet": "Use USA.gov\u2019s scam reporting tool to identify a scam and help you find the right government agency or consumer organization to report it."
+              },
+              {
+                "title": "Medinex | Top Healthcare Consulting Company in APAC-2022",
+                "url": "https://www.healthcarebusinessrevieweurope.com/medinex",
+                "snippet": "Medinex has been recognized as Top Healthcare Consulting Company in APAC by Healthcare Business Review.Be first to read the latest tech news, Industry Leader's Insights, and CIO interviews of medium and large enterprises exclusively from Healthcare Business Review."
+              }
+            ],
+            "search_failed": false
+          }
+        },
+        {
+          "tool": "search_social_presence",
+          "summary": "{\"company_name\": \"Medinex Workforce\"}",
+          "raw": {
+            "query": "Medinex Workforce LinkedIn company page",
+            "linkedin_present": true,
+            "linkedin_urls": [
+              "https://www.linkedin.com/posts/medinex-workforce_medinexworkforce-itrecruitment-healthcarerecruitment-activity-7472965924791312384-sD7b",
+              "https://www.linkedin.com/jobs/medinex-workforce-jobs"
+            ],
+            "search_failed": false
+          }
+        },
+        {
+          "tool": "whois_lookup",
+          "summary": "{\"domain\": \"medinexworkforce.in\"}",
+          "raw": {
+            "domain": "medinexworkforce.in",
+            "registrar": "HOSTINGER operations, UAB",
+            "creation_date": "2026-06-16 11:09:42.942000+00:00",
+            "age_days": 25,
+            "newly_registered": true,
+            "lookup_failed": false,
+            "domain_not_registered": false
+          }
+        },
+        {
+          "tool": "whois_lookup",
+          "summary": "{\"domain\": \"medinex.org\"}",
+          "raw": {
+            "domain": "medinex.org",
+            "registrar": "DYNADOT LLC",
+            "creation_date": "2025-12-28 17:00:04+00:00",
+            "age_days": 195,
+            "newly_registered": false,
+            "lookup_failed": false,
+            "domain_not_registered": false
+          }
+        },
+        {
+          "tool": "whois_lookup",
+          "summary": "{\"domain\": \"medinex.com.au\"}",
+          "raw": {
+            "domain": "medinex.com.au",
+            "lookup_failed": false,
+            "domain_not_registered": true,
+            "registrar": null,
+            "creation_date": null,
+            "age_days": null,
+            "newly_registered": null
+          }
+        }
+      ],
+      "domain_similarity": null,
+      "agent_notes": "(agent hit max tool-call iterations)",
+      "verdict": {
+        "risk_score": 30,
+        "risk_label": "medium",
+        "evidence": [
+          "The domain medinexworkforce.in, which appears to be the company's website, was registered only 25 days ago. Newly registered domains are frequently used in job scams.",
+          "No official company website could be confirmed; the search returned multiple candidate domains but none were verified as the legitimate site.",
+          "The company has a LinkedIn page with recent activity, but a social media presence alone does not guarantee legitimacy, especially when the domain is very new."
+        ],
+        "explanation": "This job posting shows some signs that could indicate a scam, but the evidence is not strong. The main concern is that the company's website domain was created very recently, which is a common tactic in fraudulent job offers. However, the company does have a LinkedIn presence and no other scam indicators were found. Job seekers should be cautious and verify the company through independent sources before providing personal information."
+      }
+    }
+  },
+  "real_posting_2": {
+    "label": "Real posting",
+    "posting_text": "\nJob Title: Backend Software Engineer, Infrastructure\nCompany: Stripe\nLocation: San Francisco, CA / Seattle, WA / Remote (North America)\nSalary: $135,000 - $190,000 / Year + Equity + Benefits\n\nAbout the Role:\nStripe is building the economic infrastructure for the internet. We are looking for a Backend Engineer to join our Core Infrastructure team. You will help build and maintain the highly available, low-latency services that power global payments.\n\nYou Will:\n\nDesign, build, and maintain APIs, services, and systems across Stripe\u2019s engineering teams.\n\nDebug production issues across services and multiple levels of the stack.\n\nImprove engineering standards, tooling, and processes.\n\nWe're Looking For Someone Who Has:\n\n3+ years of experience shipping high-quality code in a professional environment.\n\nStrong programming skills in Java, Go, Ruby, or Python.\n\nExperience building and operating scalable, fault-tolerant distributed systems.\n\nBenefits:\n\nComprehensive healthcare, dental, and vision coverage.\n\n401(k) matching.\n\nGenerous paid time off and parental leave.\n\nHow to Apply:\nApply directly through our official Greenhouse applicant tracking system or visit careers.stripe.com.\n\n",
+    "result": {
+      "extracted": {
+        "company_name": "Stripe",
+        "claimed_domain": "careers.stripe.com",
+        "claimed_email": null,
+        "claimed_email_domain": null,
+        "salary_range": "$135,000 - $190,000 / Year",
+        "remote_flag": true,
+        "contact_channel": "Greenhouse applicant tracking system",
+        "red_flag_phrases": [],
+        "risk_flags": {
+          "has_upfront_payment": false,
+          "has_fake_check_or_reshipping": false,
+          "has_no_interview_pressure": false,
+          "has_unrealistic_pay": false
+        }
+      },
+      "redflag_scan": {
+        "categories_triggered": [],
+        "matches": {},
+        "total_hits": 0
+      },
+      "agent_findings": [
+        {
+          "tool": "whois_lookup",
+          "summary": "{\"domain\": \"stripe.com\"}",
+          "raw": {
+            "domain": "stripe.com",
+            "registrar": "SafeNames Ltd.",
+            "creation_date": "1995-09-12 04:00:00+00:00",
+            "age_days": 11260,
+            "newly_registered": false,
+            "lookup_failed": false,
+            "domain_not_registered": false
+          }
+        },
+        {
+          "tool": "search_official_domain",
+          "summary": "{\"company_name\": \"Stripe\"}",
+          "raw": {
+            "query": "Stripe official careers page",
+            "candidate_domains": [
+              "stripe.com",
+              "mycareersfuture.gov.sg",
+              "claudeskills.info",
+              "careers.linkedin.com",
+              "careers.royalcaribbeangroup.com"
+            ],
+            "search_failed": false
+          }
+        },
+        {
+          "tool": "whois_lookup",
+          "summary": "{\"domain\": \"careers.stripe.com\"}",
+          "raw": {
+            "domain": "careers.stripe.com",
+            "registrar": "SafeNames Ltd.",
+            "creation_date": "1995-09-12 04:00:00+00:00",
+            "age_days": 11260,
+            "newly_registered": false,
+            "lookup_failed": false,
+            "domain_not_registered": false
+          }
+        },
+        {
+          "tool": "search_company_reviews",
+          "summary": "{\"company_name\": \"Stripe\"}",
+          "raw": {
+            "query": "Stripe reviews scam complaints",
+            "results": [
+              {
+                "title": "Stripe Reviews | Read Customer Service Reviews of stripe.com",
+                "url": "https://www.trustpilot.com/review/stripe.com",
+                "snippet": "Jun 5, 2026 \u00b7 Considering 1,105 reviews, most reviewers were let down by their experience overall. Many customers reported significant issues with payments, including funds being held for extended periods without clear explanations or being withheld indefinitely."
+              },
+              {
+                "title": "Stripe, Inc. | BBB Complaints | Better Business BureauDo Not Use Stripe!!! This is your warning. Learn from my ...Stripe Reviews | Read Customer Service Reviews of stripe.com ...Complaints - StripeIs Stripe a Scam? An Investigative Report - fintech rating ...Fraud : Stripe: Help & Support",
+                "url": "https://www.bbb.org/us/ca/south-san-francisco/profile/payment-processing-services/stripe-inc-1116-437157/complaints",
+                "snippet": "Jul 4, 2026 \u00b7 A review of complaints was completed in March 2026. Complaints on file concern issues with the release of funds and account suspension and/or termination of accounts. I used Stripe for about a year to run a small cell phone store in Denver, CO area. In the case of my business, I never had an issue processing my small payments for cell phones, ranging from a couple hundred dollars up to $1000. Jun 5, 2026 \u00b7 Considering 1,105 reviews, most reviewers were let down by their experience overall. Many customers reported significant issues with payments, including funds being held for extended periods without clear explanations or being withheld indefinitely. We're here to address your complaints about Stripe's products or services. Please provide details about the issue you've encountered and we'll work toward a resolution. Jul 22, 2024 \u00b7 This article delves into whether there is any basis to the claim that Stripe is a scam, examining various aspects of its operations, user experiences, and security measures. Find help and support for Stripe. Our support site provides answers on all types of situations, including account information, charges and refunds, and subscriptions information. Get your questions answered and find international support for Stripe."
+              },
+              {
+                "title": "Do Not Use Stripe!!! This is your warning. Learn from my ...",
+                "url": "https://www.reddit.com/r/ecommerce/comments/wa20e0/do_not_use_stripe_this_is_your_warning_learn_from/",
+                "snippet": "I used Stripe for about a year to run a small cell phone store in Denver, CO area. In the case of my business, I never had an issue processing my small payments for cell phones, ranging from a couple hundred dollars up to $1000."
+              },
+              {
+                "title": "Stripe Reviews | Read Customer Service Reviews of stripe.com ...Complaints - StripeIs Stripe a Scam? An Investigative Report - fintech rating ...Fraud : Stripe: Help & Support",
+                "url": "https://www.trustpilot.com/review/stripe.com?page=2",
+                "snippet": "Jun 5, 2026 \u00b7 Considering 1,105 reviews, most reviewers were let down by their experience overall. Many customers reported significant issues with payments, including funds being held for extended periods without clear explanations or being withheld indefinitely. We're here to address your complaints about Stripe's products or services. Please provide details about the issue you've encountered and we'll work toward a resolution. Jul 22, 2024 \u00b7 This article delves into whether there is any basis to the claim that Stripe is a scam, examining various aspects of its operations, user experiences, and security measures. Find help and support for Stripe. Our support site provides answers on all types of situations, including account information, charges and refunds, and subscriptions information. Get your questions answered and find international support for Stripe."
+              },
+              {
+                "title": "Complaints - Stripe",
+                "url": "https://stripe.com/complaints",
+                "snippet": "We're here to address your complaints about Stripe's products or services. Please provide details about the issue you've encountered and we'll work toward a resolution."
+              }
+            ],
+            "search_failed": false
+          }
+        },
+        {
+          "tool": "search_social_presence",
+          "summary": "{\"company_name\": \"Stripe\"}",
+          "raw": {
+            "query": "Stripe LinkedIn company page",
+            "linkedin_present": true,
+            "linkedin_urls": [
+              "https://www.linkedin.com/company/stripe"
+            ],
+            "search_failed": false
+          }
+        }
+      ],
+      "domain_similarity": {
+        "claimed_domain": "careers.stripe.com",
+        "best_match": "stripe.com",
+        "similarity_ratio": 1.0,
+        "core_label_ratio": 1.0,
+        "exact_match": true,
+        "typosquat_suspected": false,
+        "no_official_domain_found": false
+      },
+      "agent_notes": "## Summary\n\n**Verdict: This job posting appears to be legitimate.**\n\n**Evidence gathered:**\n\n1. **Domain verification**: The claimed domain `careers.stripe.com` is a subdomain of `stripe.com`, which has been registered since **1995** (over 30 years old) \u2014 a strong indicator of a well-established, legitimate company. The subdomain shares the same registration details, confirming it's part of the real Stripe infrastructure.\n\n2. **Official domain match**: Searching for Stripe's official careers page returns `stripe.com` as the top candidate, consistent with the claimed domain.\n\n3. **Social presence**: Stripe has a verified LinkedIn company page (`linkedin.com/company/stripe`), confirming it's a real, large organization.\n\n4. **Contact channel**: The posting uses **Greenhouse** (a widely recognized, legitimate applicant tracking system used by many tech companies), which is consistent with how Stripe actually handles recruitment.\n\n5. **No red flags**: The posting contains no red-flag phrases, no requests for upfront payment, no fake-check/reshipping schemes, no high-pressure tactics, and the salary range ($135K\u2013$190K) is realistic for a senior tech role at Stripe.\n\n6. **Reviews**: The complaints found relate to Stripe's payment processing services (typical for a financial platform), not to employment scams or fake job postings.\n\n**Conclusion**: All signals point to this being a genuine job posting from Stripe via their legitimate careers portal and Greenhouse ATS. No scam indicators detected.",
+      "verdict": {
+        "risk_score": 0,
+        "risk_label": "low",
+        "evidence": [
+          "The claimed domain careers.stripe.com is a subdomain of stripe.com, which has been registered since 1995 (over 30 years) and is not newly registered.",
+          "Domain similarity check shows an exact match between the claimed domain and the official stripe.com, with no typosquatting suspected.",
+          "Stripe has a verified LinkedIn company page (linkedin.com/company/stripe), confirming it is a real, established organization.",
+          "The posting uses Greenhouse, a legitimate applicant tracking system commonly used by tech companies, consistent with Stripe's known hiring process.",
+          "The salary range ($135,000 - $190,000) is realistic for a senior role at a company like Stripe, and no red-flag phrases or scam indicators were found in the posting.",
+          "Online reviews mentioning Stripe relate to its payment processing services, not to employment scams or fake job postings."
+        ],
+        "explanation": "This job posting shows no signs of being fraudulent. The domain is a long-established, official Stripe subdomain, the company has a strong LinkedIn presence, and the application process uses a reputable system. The salary is realistic, and there are no red flags like upfront payment requests or high-pressure tactics. All evidence points to a legitimate job listing from Stripe."
+      }
+    }
+  }
+}

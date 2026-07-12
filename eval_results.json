@@ -1,0 +1,255 @@
+{
+  "summary": {
+    "n": 30,
+    "true_positives": 13,
+    "false_positives": 1,
+    "true_negatives": 14,
+    "false_negatives": 2,
+    "precision": 0.929,
+    "recall": 0.867,
+    "f1": 0.897,
+    "accuracy": 0.9
+  },
+  "results": [
+    {
+      "source_id": "202601",
+      "actual_fraud": true,
+      "predicted_score": 63,
+      "predicted_label": "high",
+      "predicted_flagged": true,
+      "correct": true
+    },
+    {
+      "source_id": "202602",
+      "actual_fraud": false,
+      "predicted_score": 0,
+      "predicted_label": "low",
+      "predicted_flagged": false,
+      "correct": true
+    },
+    {
+      "source_id": "202603",
+      "actual_fraud": true,
+      "predicted_score": 100,
+      "predicted_label": "high",
+      "predicted_flagged": true,
+      "correct": true
+    },
+    {
+      "source_id": "202604",
+      "actual_fraud": false,
+      "predicted_score": 0,
+      "predicted_label": "low",
+      "predicted_flagged": false,
+      "correct": true
+    },
+    {
+      "source_id": "202605",
+      "actual_fraud": true,
+      "predicted_score": 74,
+      "predicted_label": "high",
+      "predicted_flagged": true,
+      "correct": true
+    },
+    {
+      "source_id": "202606",
+      "actual_fraud": true,
+      "predicted_score": 22,
+      "predicted_label": "low",
+      "predicted_flagged": false,
+      "correct": false
+    },
+    {
+      "source_id": "202607",
+      "actual_fraud": false,
+      "predicted_score": 0,
+      "predicted_label": "low",
+      "predicted_flagged": false,
+      "correct": true
+    },
+    {
+      "source_id": "202608",
+      "actual_fraud": true,
+      "predicted_score": 84,
+      "predicted_label": "high",
+      "predicted_flagged": true,
+      "correct": true
+    },
+    {
+      "source_id": "202609",
+      "actual_fraud": false,
+      "predicted_score": 0,
+      "predicted_label": "low",
+      "predicted_flagged": false,
+      "correct": true
+    },
+    {
+      "source_id": "202610",
+      "actual_fraud": true,
+      "predicted_score": 67,
+      "predicted_label": "high",
+      "predicted_flagged": true,
+      "correct": true
+    },
+    {
+      "source_id": "202611",
+      "actual_fraud": false,
+      "predicted_score": 0,
+      "predicted_label": "low",
+      "predicted_flagged": false,
+      "correct": true
+    },
+    {
+      "source_id": "202612",
+      "actual_fraud": true,
+      "predicted_score": 74,
+      "predicted_label": "high",
+      "predicted_flagged": true,
+      "correct": true
+    },
+    {
+      "source_id": "202613",
+      "actual_fraud": false,
+      "predicted_score": 25,
+      "predicted_label": "low",
+      "predicted_flagged": false,
+      "correct": true
+    },
+    {
+      "source_id": "202614",
+      "actual_fraud": true,
+      "predicted_score": 49,
+      "predicted_label": "medium",
+      "predicted_flagged": true,
+      "correct": true
+    },
+    {
+      "source_id": "202615",
+      "actual_fraud": false,
+      "predicted_score": 0,
+      "predicted_label": "low",
+      "predicted_flagged": false,
+      "correct": true
+    },
+    {
+      "source_id": "202616",
+      "actual_fraud": true,
+      "predicted_score": 38,
+      "predicted_label": "medium",
+      "predicted_flagged": true,
+      "correct": true
+    },
+    {
+      "source_id": "202617",
+      "actual_fraud": false,
+      "predicted_score": 0,
+      "predicted_label": "low",
+      "predicted_flagged": false,
+      "correct": true
+    },
+    {
+      "source_id": "202618",
+      "actual_fraud": true,
+      "predicted_score": 64,
+      "predicted_label": "high",
+      "predicted_flagged": true,
+      "correct": true
+    },
+    {
+      "source_id": "202619",
+      "actual_fraud": false,
+      "predicted_score": 25,
+      "predicted_label": "low",
+      "predicted_flagged": false,
+      "correct": true
+    },
+    {
+      "source_id": "202620",
+      "actual_fraud": true,
+      "predicted_score": 55,
+      "predicted_label": "medium",
+      "predicted_flagged": true,
+      "correct": true
+    },
+    {
+      "source_id": "202621",
+      "actual_fraud": false,
+      "predicted_score": 0,
+      "predicted_label": "low",
+      "predicted_flagged": false,
+      "correct": true
+    },
+    {
+      "source_id": "202622",
+      "actual_fraud": true,
+      "predicted_score": 69,
+      "predicted_label": "high",
+      "predicted_flagged": true,
+      "correct": true
+    },
+    {
+      "source_id": "202623",
+      "actual_fraud": false,
+      "predicted_score": 0,
+      "predicted_label": "low",
+      "predicted_flagged": false,
+      "correct": true
+    },
+    {
+      "source_id": "202624",
+      "actual_fraud": true,
+      "predicted_score": 22,
+      "predicted_label": "low",
+      "predicted_flagged": false,
+      "correct": false
+    },
+    {
+      "source_id": "202625",
+      "actual_fraud": false,
+      "predicted_score": 0,
+      "predicted_label": "low",
+      "predicted_flagged": false,
+      "correct": true
+    },
+    {
+      "source_id": "202626",
+      "actual_fraud": true,
+      "predicted_score": 48,
+      "predicted_label": "medium",
+      "predicted_flagged": true,
+      "correct": true
+    },
+    {
+      "source_id": "202627",
+      "actual_fraud": false,
+      "predicted_score": 40,
+      "predicted_label": "medium",
+      "predicted_flagged": true,
+      "correct": false
+    },
+    {
+      "source_id": "202628",
+      "actual_fraud": true,
+      "predicted_score": 70,
+      "predicted_label": "high",
+      "predicted_flagged": true,
+      "correct": true
+    },
+    {
+      "source_id": "202629",
+      "actual_fraud": false,
+      "predicted_score": 0,
+      "predicted_label": "low",
+      "predicted_flagged": false,
+      "correct": true
+    },
+    {
+      "source_id": "202630",
+      "actual_fraud": false,
+      "predicted_score": 0,
+      "predicted_label": "low",
+      "predicted_flagged": false,
+      "correct": true
+    }
+  ]
+}
