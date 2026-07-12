@@ -67,15 +67,6 @@ moderation can't reach.
 - [ ] Docker build -- still not verified end-to-end (see Day 2 section above)
 - [ ] Submit
 
-## What YOU still need to verify (can't be done from my sandbox)
-
-1. `python -m tests.test_pipeline_live` -- the real end-to-end test, runs all 3
-   sample postings through extraction -> agent loop -> synthesis for real
-2. `streamlit run app.py` -- click through the UI with a real posting
-3. `docker build -t jobshield .` then `docker run -p 8501:8501 --env-file .env jobshield`
-   -- confirm the container actually builds and serves. Note: `.env` is
-   deliberately excluded from the image (see `.dockerignore`) -- pass secrets at
-   `docker run` time, don't bake them in
 
 ## Fixed after live testing surfaced a scoring accuracy gap (Day 3, submission day)
 
