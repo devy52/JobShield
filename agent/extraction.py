@@ -10,7 +10,7 @@ load_dotenv()
 # Fast/cheap model for extraction -- verify the exact slug in your Fireworks
 # console (Models tab) and set it in .env. This default is a placeholder.
 EXTRACTION_MODEL = os.environ.get(
-    "FIREWORKS_EXTRACTION_MODEL", "accounts/fireworks/models/deepseek-v4-flash"
+    "FIREWORKS_EXTRACTION_MODEL", "accounts/fireworks/models/deepseek-v4-flash-0731"
 )
 
 SYSTEM_PROMPT = """You extract structured facts from a pasted job posting or recruiter message.

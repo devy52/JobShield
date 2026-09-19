@@ -14,7 +14,7 @@ load_dotenv()
 # on-demand deployment, ~$28-40 min). Swap in a Gemma slug here only if you
 # find one serverless, or decide to eat the on-demand cost for the "Best Use
 # of Gemma" bonus track. See .env.example / README for the full tradeoff.
-SYNTHESIS_MODEL = os.environ.get("FIREWORKS_SYNTHESIS_MODEL", "accounts/fireworks/models/deepseek-v4-pro")
+SYNTHESIS_MODEL = os.environ.get("FIREWORKS_SYNTHESIS_MODEL", "accounts/fireworks/models/deepseek-v4-pro-0813")
 
 # risk_score/risk_label are computed entirely in code from compute_base_score,
 # not asked of or accepted from the model. A prompted "adjust by at most 10

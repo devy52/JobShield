@@ -11,7 +11,7 @@ moderation can't reach.
 
 **Live:** https://job-shield.streamlit.app/
 (The "Try an example" buttons load cached results. Live analysis of pasted
-text needs a working Fireworks API key.)
+text needs a working Fireworks API key. It's given but credits might run out.)
 
 ## Evaluation results
 

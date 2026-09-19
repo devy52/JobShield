@@ -14,7 +14,7 @@ from tools.whois_tool import whois_lookup
 # Cheap/fast model for orchestration -- verify this slug in your Fireworks console.
 ORCHESTRATOR_MODEL = os.environ.get(
     "FIREWORKS_ORCHESTRATOR_MODEL",
-    os.environ.get("FIREWORKS_EXTRACTION_MODEL", "accounts/fireworks/models/deepseek-v4-flash"),
+    os.environ.get("FIREWORKS_EXTRACTION_MODEL", "accounts/fireworks/models/deepseek-v4-flash-0731"),
 )
 
 
